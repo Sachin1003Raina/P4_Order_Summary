@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+
+}
+
+.main{
+    height: 550px;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    
+}
+
+.image1{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: 0px;
+}
+
+.name{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0px;
+}
+
+.discription{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    line-height: 25px;
+    margin: 0px;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px ;
+    padding: 20px 10px;
+    width: 100%;
+    background-color: hsla(0, 0%, 86%, 0.175);
+    
+
+}
+
+.music{
+  margin-right: 20px;
+}
+
+.plan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.annual{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.amt{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin: 0px;
+}
+
+.change{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+    margin: 0px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.change:hover{
+    opacity: 0.8;
+    text-decoration: none
+}
+
+.button{
+    padding: 15px 0px;
+    align-self: stretch;
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 12px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 14px; 
+    box-shadow: 0px  10px 10px 2px hsla(245, 90%, 72%, 0.3); 
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.cancle{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancle:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (min-width: 800px){
+    body{
+       background-repeat: no-repeat;
+        background-image: url('./images/pattern-background-desktop.svg');
+    }
+}
